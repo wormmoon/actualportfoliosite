@@ -4,10 +4,23 @@ body {
 
 #mobile-header h1 {
 	display: block;
+	height: 6vh;
+	margin: 0;
 	/*background-color: blue;*/
+}
+
+#mobile-header ul {
+	margin: 0 auto;
+	width: 100%;
+	padding-left: 0;
 }
 
 #mobile-header li {
 	display: block;
 	text-align: center;
+	border: 1px solid red;
+}
+
+#mobile-nav {
+	width: 100%;
 }
