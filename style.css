@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+}
+
+#mobile-header h1 {
+	display: block;
+	/*background-color: blue;*/
+}
+
+#mobile-header li {
+	display: block;
+	text-align: center;
+}
