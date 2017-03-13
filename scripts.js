@@ -1,17 +1,22 @@
-var expandedMenu = document.getElementById("expanded-menu");
+window.onload = function() {
 
-function hide(element) {
-	element.className -= "hidden"
-};
+	var expandedMenu = document.getElementById("expanded-menu");
 
-function show(element) {
-	element.className += "hidden"
-};
-		
-function btnclick() {
-	if (expandedMenu.className.includes("hidden")) show(expandedMenu);
-	else hide(expandedMenu);
-};
-		
+	function hide(element) {
+		element.className -= "hidden";
+	}
 
-document.getElementById("hamburger").onclick = btnclick();
+	function show(element) {
+		element.className += "hidden";
+	}
+			
+	function btnclick() {
+		if (expandedMenu.className.includes("hidden")) {
+			show(expandedMenu);
+		} else {
+			hide(expandedMenu);}
+	}	
+
+	document.getElementById("hamburger").onclick = btnclick();
+
+}
