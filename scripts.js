@@ -3,25 +3,25 @@ window.onload = function() {
 	var expandedMenu = document.getElementById("expanded-menu");
 
 	function hide(element) {
-		element.className += "hidden";
+		element.classList += "hidden";
 		console.log("hide run")
 	}
 
 	function show(element) {
-		element.className -= "hidden";
+		element.classList -= "hidden";
 		console.log("show run")
 	}
 			
-	function btnclick(element) {
-		if (element.className.includes("hidden")) {
-			show(element);
+	function btnclick() {
+		if (expandedMenu.classList.contains("hidden")) {
+			show(expandedMenu);
 		} else {
-			hide(element);
+			hide(expandedMenu);
 		}
 
 		console.log("btn click run")
 	}	
 
-	document.getElementById("hamburger").onclick = btnclick(expandedMenu);
+	document.getElementById("hamburger").onclick = btnclick;
 };
 
