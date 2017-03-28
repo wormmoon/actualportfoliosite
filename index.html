@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head> 
+
+		<meta charset="utf-8"/>
+
 		<title>Emily Oliver Web Development</title>
 
   		<!--Ensure proper rendering on mobiles etc-->
@@ -14,7 +17,7 @@
   		<!--Fonts-->
   		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-  		<script src="scripts.js"></script>`
+  		<script src="scripts.js"></script>
 
 	</head>
 
@@ -26,14 +29,13 @@
 
 				<div id="top-menu">
 					<h1 id="long-name">Emily Oliver</h1>
-					<h1 id="initials">EO</h1>
 
 					<div id="menu-btn">
 							<p id="hamburger">&#9776;</p>			
 					</div>
 				</div>
 
-				<nav id="expanded-menu">
+				<nav id="expanded-menu" class="hidden">
 						<ul>
 							<li><a href="">PORTFOLIO</a></li>
 							<li><a href="">ABOUT</a></li>
@@ -42,16 +44,36 @@
 				</nav>
 			</header>
 
-			<div id="portfolio-section">	
-				<div class="project-section">
+			<div id="portfolio-section">
 
+				<h1 class="section-title">PORTFOLIO</h1>
+
+				<div class="project-section">
+					<div class="grey-box"><img class="example-img" src="" alt=""/></div>
+					<a class="read-more" href="#">Read more -></a>
 				</div>	
 			</div>
 
 			<div id="about-section">
-			</div>
+
+				<h1 class="section-title">ABOUT</h1>
+				<div>
+					<div id="placeholder"><img src="#" alt=""/></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 
 			<div id="contact-section">
+				<h1 class="section-title">CONTACT</h1>
+				<div class="contact-link">
+					<p>EMAIL: <a href="#">mleeoliver@gmail.com</a></p>
+					
+				</div>
+				<div class="contact-link">
+					<p>GITHUB: <a href="#">github.com/wormmoon</a></p>		
+				</div>
+				<div class="contact-link">
+					<p>LINKEDin: <a href="#">link</a></p>
+				</div>		
 			</div>
 			
 		</div>
