@@ -3,12 +3,12 @@ window.onload = function() {
 	var expandedMenu = document.getElementById("expanded-menu");
 
 	function hide(element) {
-		element.classList += "hidden";
+		element.classList.add("hidden");
 		console.log("hide run")
 	}
 
 	function show(element) {
-		element.classList -= "hidden";
+		element.classList.remove("hidden");
 		console.log("show run")
 	}
 			
