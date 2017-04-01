@@ -170,8 +170,15 @@ a {
 	/*FOOTER*/
 	footer {
 		background-color: #91dcb1;
-		height: 15vh;
+		height: 10vh;
 		display: block;
+		text-align: center;
+	}
+
+	footer p {
+		font-family: 'Roboto', sans-serif !important;
+		color: #fff;
+		padding: 20px;
 	}
 }
 
