@@ -130,7 +130,7 @@ a {
 		padding-top: 50px;
 	}
 
-	#placeholder {
+	/*#placeholder {
 		height: 200px;
 		width: 180px;
 		float: right;
@@ -138,12 +138,20 @@ a {
 		background-color: gray;
 		margin: 20px;
 		margin-top: 0;
-	}
+	}*/
 
 	.about-section div p {
 		margin: 10px;
 		font-family: 'Roboto', serif;
 		padding-bottom: 30px;
+	}
+
+	.selfie {
+		width: 45%;
+		height: 19vh;
+		float: right;
+		display: block;
+		padding-bottom: 15px;
 	}
 
 	/*CONTACT SECTION*/
