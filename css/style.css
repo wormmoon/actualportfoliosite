@@ -89,6 +89,7 @@ a {
 
 	.portfolio-title {
 		color: #92c715;
+		margin-bottom: 10px;
 	}
 
 	.project-section {
@@ -138,6 +139,7 @@ a {
 	.about-title {
 		color: #72c1b9;
 		padding-top: 100px;
+		margin-bottom: -15px;
 	}
 
 	/*#placeholder {
@@ -162,7 +164,10 @@ a {
 		height: 29vh;
 		float: right;
 		display: block;
-		padding: 15px 0px 15px 15px;
+		margin: 15px 0px 0px 15px;
+		border-top: 6px solid #3e8e86;
+		border-bottom: 6px solid #3e8e86;
+		border-left: 6px solid #3e8e86;
 	}
 
 	/*CONTACT SECTION*/
