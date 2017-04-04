@@ -5,11 +5,15 @@
 }
 
 body {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
 	text-decoration: none;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -81,6 +85,22 @@ a {
 	font-weight: 900;
 }
 
+
+
+
+
+
+/*INTRO SECTION*/
+
+.intro-section {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 30px;
+	padding: 15px;
+}
+
+.intro-section p {
+	margin-top: 15px;
+}
 
 
 
