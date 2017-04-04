@@ -112,7 +112,7 @@ a {
 		height: 35vh;
 		border-top: 6px solid #46765a;
 		border-bottom: 6px solid #46765a;
-		width: 100%;
+		width: auto;
 	}
 
 	.project-title {
@@ -152,19 +152,21 @@ a {
 		margin-top: 0;
 	}*/
 
+	.about-flex {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
 	.about-section div p {
 		margin: 10px;
 		font-family: 'Roboto', serif;
-		padding-bottom: 30px;
-		padding-top: 35px;
+		padding: 10px;
 	}
 
 	.selfie {
-		width: 70%;
+		width: auto;
 		height: 29vh;
-		float: right;
-		display: block;
-		margin: 15px 0px 0px 15px;
+		margin: 15px 0px 10px 10px;
 		border-top: 6px solid #3e8e86;
 		border-bottom: 6px solid #3e8e86;
 		border-left: 6px solid #3e8e86;
@@ -206,5 +208,5 @@ a {
 		color: #fff;
 		padding: 20px;
 	}
-}
+
 
