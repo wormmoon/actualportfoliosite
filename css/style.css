@@ -49,6 +49,7 @@ p {
 	font-size: 35px;	
 	color: #ffffff;
 	line-height: 30px;
+	cursor: pointer;
 }
 
 .expanded-menu ul {
