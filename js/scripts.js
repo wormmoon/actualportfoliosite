@@ -1,5 +1,7 @@
 window.onload = function() {
 
+	smooth_scroll.init();
+	
 	var expandedMenu = document.getElementById("expanded-menu");
 
 	function hide(element) {
