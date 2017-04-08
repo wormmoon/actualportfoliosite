@@ -26,17 +26,5 @@ window.onload = function() {
 
 	document.getElementById("hamburger").onclick = btnclick;
 
-
-	function scrollToElement(elementId) {
-		document.querySelector(elementId).scrollIntoView({ 
-  			behavior: 'smooth' 
-		});
-	}
-
-	document.getElementById("menuportfolio").onclick = scrollToElement("portfolio");
-
-	document.getElementById("menuabout").onclick = scrollToElement("about");
-
-	document.getElementById("menucontact").onclick = scrollToElement("contact");
 };
 
