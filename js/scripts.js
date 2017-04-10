@@ -22,7 +22,13 @@ window.onload = function() {
 		//console.log("btn click run")
 	}	
 
+	function linkclick() {
+		expandedMenu.classList.add("hidden");
+	}
+
 	document.getElementById("hamburger").onclick = btnclick;
+
+	document.getElementById("menulink").onclick = linkclick; //not working
 
 };
 
