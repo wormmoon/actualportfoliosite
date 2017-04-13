@@ -270,7 +270,14 @@ footer p {
 
 
 
-@media (min-width: 480px) {
+
+
+
+
+
+
+
+@media (min-width: 480px max-height: 1079px) {
 
 	/*HEADER*/
 
@@ -281,6 +288,8 @@ footer p {
 
 	.section-title {
 		font-size: 70px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 	/*INTRO SECTION*/
@@ -346,6 +355,51 @@ footer p {
 	footer p {
 		font-size: 20px;
 	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1080px) { /*not doing what I'm setting??*/
+
+
+/*HEADER/NAV*/
+
+
+	.mobile-header {
+		height: 100%;
+		width: 15vw;
+		position: fixed;
+		float: left;
+	}
+
+	.hamburger {
+		display: none;
+	}
+
+	.expanded-menu ul {
+		width: 20vw%;
+	}
+
+	.expanded-menu li {
+		width: 20vw;
+	}
+
+
+
+
 
 
 }
