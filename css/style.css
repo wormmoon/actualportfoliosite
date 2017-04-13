@@ -23,14 +23,6 @@ p {
 
 /*HEADER/NAV*/
 
-/*.name {
-	font-family: 'Muli', sans-serif;
-	font-weight: 900;
-	font-size: 35px;
-	letter-spacing: -1px;
-	color: #ffffff;
-}*/
-
 .logo {
 	width: auto;
 	height: 38px;
@@ -108,6 +100,7 @@ p {
 	margin-top: 30px;
 	padding: 15px 15px 15px 10px;
 	height: 50vh;
+	font-weight: 300;
 }
 
 .intro-section p {
@@ -174,6 +167,7 @@ p {
 	padding-left: 15px;
 	font-family: 'Roboto', sans-serif !important;
 	color: #52a073;
+	font-weight: 300;
 }
 
 .project-section p {
@@ -181,6 +175,10 @@ p {
 	padding-left: 15px;
 	margin: 10px 10px 0px 0;
 	color: #52a073;
+}
+
+.techs {
+	font-weight: 300;
 }
 
 
@@ -199,16 +197,11 @@ p {
 	margin-bottom: -15px;
 }
 
-/*.about-flex {
-	display: flex;
-	flex-direction: row-reverse;
-}*/
-
 .about-section div p {
 	font-family: 'Roboto', sans-serif !important;
 	margin: 10px;
 	padding: 10px;
-	font-size: 13px;
+	font-weight: 300;
 }
 
 .selfie {
@@ -246,6 +239,7 @@ p {
 
 .contact-link a {
 	color: #52a073;
+	font-weight: 300;
 }
 
 
