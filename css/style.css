@@ -372,30 +372,49 @@ footer p {
 
 
 
-@media (min-width: 1080px) { /*not doing what I'm setting??*/
+@media (min-width: 1080px) { 
 
+	.container {
+		display: flex;
+		flex-direction: row;
+	}
 
 /*HEADER/NAV*/
 
+
+	.logo {
+		width: 10vw;
+		height: auto;		
+	}
 
 	.mobile-header {
 		height: 100%;
 		width: 15vw;
 		position: fixed;
-		float: left;
+		flex-direction: column;
 	}
 
 	.hamburger {
 		display: none;
 	}
 
+	.expanded-menu {
+		display: inline-block;
+	}
+
 	.expanded-menu ul {
-		width: 20vw%;
+		width: 20vw;
 	}
 
 	.expanded-menu li {
 		width: 20vw;
+		line-height: 0px;
+		border-bottom: none;
+		font-size: 20px;
+		margin: 0 auto;
+		color: #fff;
 	}
+
 
 
 
