@@ -140,8 +140,8 @@ a {
 }
 
 .img-wrap {
-	border-top: 6px solid lightgrey;
-	border-bottom: 6px solid lightgrey;
+	border-top: 6px solid #e6e6e6;
+	border-bottom: 6px solid #e6e6e6;
 	background-color: #fff;
 }
 
@@ -161,7 +161,7 @@ a {
 }
 
 .project-section p {
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-left: 25px;
 	margin: 10px 10px 0px 0;
 	color: #52a073;
@@ -198,9 +198,9 @@ a {
 	width: auto;
 	height: 40vh;
 	margin: 15px 0px 10px 10px;
-	border-top: 6px solid lightgrey;
-	border-bottom: 6px solid lightgrey;
-	border-left: 6px solid lightgrey;
+	border-top: 6px solid #e6e6e6;
+	border-bottom: 6px solid #e6e6e6;
+	border-left: 6px solid #e6e6e6;
 	float: right;
 }
 
