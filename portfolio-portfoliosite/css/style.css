@@ -103,7 +103,7 @@ p {
 	margin: 10px;
 }
 
-.textcontent {
+.infocontent {
 	display: flex;
 	flex-direction: column;
 }
@@ -136,6 +136,12 @@ p {
 	font-family: 'Roboto', sans-serif;
 	margin: 0px 10px 10px 10px;
 	font-size: 15px;
+}
+
+.siteinfo {
+	margin: 10px;
+	font-family: 'Roboto', sans-serif;
+	display: block;
 }
 
 
