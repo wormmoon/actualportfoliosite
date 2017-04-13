@@ -103,9 +103,39 @@ p {
 	margin: 10px;
 }
 
-.text-content {
+.textcontent {
 	display: flex;
-	flex: column;
+	flex-direction: column;
+}
+
+.heading {
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+	color: #52a073;
+	font-size: 17px;
+}
+
+.heading::after {
+	content: "";
+	height: 3px;
+	background-color: #e6e6e6;
+	width: 100%;
+	top: 50%;
+	display: block;
+	margin-top: 5px;
+}
+
+.heading2 {
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+	color: #52a073;
+	font-size: 15px;
+}
+
+.techs {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 10px 10px 10px;
+	font-size: 15px;
 }
 
 
