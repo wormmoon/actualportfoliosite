@@ -97,7 +97,7 @@ p {
 	margin-top: 30px;
 }
 
-.mobileversion {
+.mobileversionimg {
 	width: 60vw;
 	height: 100%;
 	margin: 10px;
@@ -108,14 +108,14 @@ p {
 	flex-direction: column;
 }
 
-.heading {
+.sitetitle {
 	font-family: 'Roboto', sans-serif;
 	margin: 10px;
 	color: #52a073;
 	font-size: 17px;
 }
 
-.heading::after {
+.sitetitle::after {
 	content: "";
 	height: 3px;
 	background-color: #e6e6e6;
@@ -125,7 +125,7 @@ p {
 	margin-top: 5px;
 }
 
-.heading2 {
+.techused {
 	font-family: 'Roboto', sans-serif;
 	margin: 10px;
 	color: #52a073;
