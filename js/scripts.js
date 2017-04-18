@@ -30,5 +30,10 @@ window.onload = function() {
 
 	document.getElementById("menulink").onclick = linkclick; //not working
 
+	smooth_scroll.init({
+	header_id: "hamburger"
+}	);
+
 };
 
+//jQuery has better browser support than plain JS but I wanted to use it to learn how to do it and better my JS ability
