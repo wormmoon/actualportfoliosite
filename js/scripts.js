@@ -1,6 +1,8 @@
 window.onload = function() {
-	
+
 	var expandedMenu = document.getElementById("expanded-menu");
+
+	smoothScroll.init();
 
 	function hide(element) {
 		element.classList.add("hidden");
@@ -11,7 +13,7 @@ window.onload = function() {
 		element.classList.remove("hidden");
 		//console.log("show run")
 	}
-			
+
 	function btnclick() {
 		if (expandedMenu.classList.contains("hidden")) {
 			show(expandedMenu);
@@ -20,7 +22,7 @@ window.onload = function() {
 		}
 
 		//console.log("btn click run")
-	}	
+	}
 
 	function linkclick() {
 		expandedMenu.classList.add("hidden");
@@ -28,8 +30,6 @@ window.onload = function() {
 
 	document.getElementById("hamburger").onclick = btnclick;
 
-	document.getElementById("menulink").onclick = linkclick; //not working
+	// document.getElementById("menulink").onclick = linkclick; //not working
 
 };
-
-//jQuery has better browser support than plain JS but I wanted to use it to learn how to do it and better my JS ability

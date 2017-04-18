@@ -1,131 +1,83 @@
 <!DOCTYPE html>
 <html>
-	<head> 
 
-		<meta charset="utf-8"/>
+<head>
+    <meta charset="utf-8" />
+    <title>Emily Oliver Web Development</title>
+    <!--Ensure proper rendering on mobiles etc-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--CSS reset-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Muli:700,900" rel="stylesheet">
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
 
-		<title>Emily Oliver Web Development</title>
-
-  		<!--Ensure proper rendering on mobiles etc-->
-  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-  		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-  		<!--CSS reset-->
-  		<link rel="stylesheet" type="text/css" href="css/reset.css">
-
-  		<!--Fonts-->
-  		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Muli:700,900" rel="stylesheet"> 
-
-
-  		<script src="js/scripts.js"></script>		
-
-
-	</head>
-
-	<body>
-
-		<div class="container">
-
-			<header>
-
-				<div class="mobile-header">
-
-					<img class="logo" src="images/emilyoliver.svg" alt="Emily Oliver"/>
-
-					<div>						
-						<p id="hamburger" class="hamburger">&#9776;</p>	
-					</div>
-
-				</div>
-
-				<nav id="expanded-menu" class="hidden expanded-menu">
-
-					<ul>
-						<li id="menuportfolio menulink"><a href="index.html#portfolio">PORTFOLIO</a></li>
-						<li id="menuabout menulink"><a href="index.html#about">ABOUT</a></li>
-						<li id="menucontact menulink"><a href="index.html#contact">CONTACT</a></li>
-					</ul>
-
-				</nav>
-
-			</header>
-
-			<div class="nonnavpage">
-
-				<div class="intro-section">
-					<p class="welcome"> Welcome! I'm Emily!</p>
-					<p> Web Developer and programmer in training~</p>
-					<p> I like building things, learning languages (computer and people), and teaching myself cool new skillz. Take a look at some of my work below or read a little more about me <a href="#about">here</a>.</p>
-				</div>
-
-				<div id="portfolio" class="portfolio-section">
-
-					<h1 class="section-title portfolio-title">WORK</h1>
-
-					<div class="project-section">
-
-						<div class="img-wrap">
-						<a href="#"><img class="screengrab" src="images/sitepic.jpg" alt="Screen grab of portfolio site"/></a>
-						</div> 
-
-						<a class="project-title" href="#">MY OWN WEBSITE</a>
-
-						<p class="techs">[HTML, CSS, Javascript]</p>
-
-						<a class="read-more" href="#">Read more >></a>
-					</div>	
-
-				</div>
-
-				<div id="about" class="about-section">
-
-					<h1 class="section-title about-title">ABOUT</h1>
-
-					<div class="about-flex">
-						<div class="selfies">
-							<img class="selfie" src="images/metho.jpg" alt="A picture of me looking really cool and pretty"/>	
-						</div>
-
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-
-				</div>
-
-				<div id="contact" class="contact-section">
-
-					<h1 class="section-title contact-title">CONTACT</h1>
-
-					<div class="contact-link">
-						<p>EMAIL: <a href="mailto:mleeoliver@gmail.com">mleeoliver@gmail.com</a></p>
-					</div>
-
-					<div class="contact-link">
-						<p>GITHUB: <a href="https://github.com/wormmoon">github.com/wormmoon</a></p>
-					</div>
-
-					<div class="contact-link">
-						<p>TWITTER: <a href="https://www.twitter.com/sea_ofstars">sea_ofstars</a></p>
-					</div>	
-
-					<div class="contact-link">
-						<p>LINKEDin: <a href="https://www.linkedin.com/in/emily-oliver-304368b1/">Emily Oliver</a></p>
-					</div>
-		
-				</div>
-
-			</div>
-
-			
-		</div>
-
-		<footer>
-
-			<p>Copyright © 2017 Emily Oliver. All rights reserved.</p>
-					
-		</footer>
-			
-
-	</body>
+<body>
+    <div class="container">
+        <header>
+            <div class="mobile-header">
+                <img class="logo" src="images/emilyoliver.svg" alt="Emily Oliver" />
+                <div>
+                    <p id="hamburger" class="hamburger">&#9776;</p>
+                </div>
+            </div>
+            <nav id="expanded-menu" class="hidden expanded-menu">
+                <ul>
+                    <li id="menuportfolio menulink"><a data-scroll href="#portfolio">PORTFOLIO</a></li>
+                    <li id="menuabout menulink"><a data-scroll href="#about">ABOUT</a></li>
+                    <li id="menucontact menulink"><a data-scroll href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="nonnavpage">
+            <div class="intro-section">
+                <p class="welcome"> Welcome! I'm Emily!</p>
+                <p> Web Developer and programmer in training~</p>
+                <p> I like building things, learning languages (computer and people), and teaching myself cool new skillz. Take a look at some of my work below or read a little more about me <a href="#about">here</a>.</p>
+            </div>
+            <div id="portfolio" class="portfolio-section">
+                <h1 class="section-title portfolio-title">WORK</h1>
+                <div class="project-section">
+                    <div class="img-wrap">
+                        <a href="#"><img class="screengrab" src="images/sitepic.jpg" alt="Screen grab of portfolio site" /></a>
+                    </div>
+                    <a class="project-title" href="#">MY OWN WEBSITE</a>
+                    <p class="techs">[HTML, CSS, Javascript]</p>
+                    <a class="read-more" href="#">Read more >></a>
+                </div>
+            </div>
+            <div id="about" class="about-section">
+                <h1 class="section-title about-title">ABOUT</h1>
+                <div class="about-flex">
+                    <div class="selfies">
+                        <img class="selfie" src="images/metho.jpg" alt="A picture of me looking really cool and pretty" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div id="contact" class="contact-section">
+                <h1 class="section-title contact-title">CONTACT</h1>
+                <div class="contact-link">
+                    <p>EMAIL: <a href="mailto:mleeoliver@gmail.com">mleeoliver@gmail.com</a></p>
+                </div>
+                <div class="contact-link">
+                    <p>GITHUB: <a href="https://github.com/wormmoon">github.com/wormmoon</a></p>
+                </div>
+                <div class="contact-link">
+                    <p>TWITTER: <a href="https://www.twitter.com/sea_ofstars">sea_ofstars</a></p>
+                </div>
+                <div class="contact-link">
+                    <p>LINKEDin: <a href="https://www.linkedin.com/in/emily-oliver-304368b1/">Emily Oliver</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © 2017 Emily Oliver. All rights reserved.</p>
+    </footer>
+</body>
 
 </html>
