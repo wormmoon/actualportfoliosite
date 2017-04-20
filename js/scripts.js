@@ -28,8 +28,12 @@ window.onload = function() {
 		expandedMenu.classList.add("hidden");
 	}
 
+	var menulink = document.getElementsByClassName("menulink");
+
 	document.getElementById("hamburger").onclick = btnclick;
 
-	// document.getElementById("menulink").onclick = linkclick; //not working
+	for (var i = 0; i < menulink.length; i++) {
+		menulink[i].addEventListener('click', linkclick);
+	}
 
 };
