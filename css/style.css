@@ -381,6 +381,7 @@ footer p {
 
 	.nonnavpage {
 		width: 77%;
+		padding: 15px;
 	}
 
 /*HEADER/NAV*/
@@ -402,21 +403,28 @@ footer p {
 	}
 
 	.expanded-menu {
-		display: inline-block;
+		z-index: 2;
+		border: solid 2px red;
 	}
 
 	.expanded-menu ul {
-		width: 20vw;
+		width: 20%;
+		height: 20%;
 	}
 
 	.expanded-menu li {
-		width: 20vw;
-		line-height: 0px;
+		height: 20%;
+		width: 20%;
 		border-bottom: none;
 		font-size: 20px;
 		margin: 0 auto;
 		color: #fff;
 	}
+
+	.hidden {
+		display: block;
+	}
+
 
 
 	/*PORTFOLIO SECTION*/
