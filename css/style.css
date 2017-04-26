@@ -376,10 +376,14 @@ footer p {
 	.container {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.nonnavpage {
+		width: 77%;
 	}
 
 /*HEADER/NAV*/
-
 
 	.logo {
 		width: 10vw;
@@ -388,7 +392,7 @@ footer p {
 
 	.mobile-header {
 		height: 100%;
-		width: 15vw;
+		width: 23%;
 		position: fixed;
 		flex-direction: column;
 	}
@@ -415,8 +419,15 @@ footer p {
 	}
 
 
+	/*PORTFOLIO SECTION*/
 
+	.project-section {
+		width: 40%;	
+	}
 
+	.img-wrap {
+		border: 6px solid #e6e6e6;
+	}
 
 
 
