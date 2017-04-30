@@ -429,6 +429,10 @@ footer p {
 		display: block;
 	}
 
+	#menucontact {
+		display: none;
+	}
+
 
 	/*INTRO SECTION*/
 
@@ -451,6 +455,10 @@ footer p {
 	.img-wrap {
 		border: 6px solid #e6e6e6;
 	}
+
+
+	/*CONTACT SECTION*/
+
 
 
 
