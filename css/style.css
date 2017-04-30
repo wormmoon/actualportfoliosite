@@ -99,7 +99,7 @@ a {
 	font-size: 20px;
 }
 
-.welcome {
+#welcome {
 	font-family: 'Muli', sans-serif;
 	font-size: 40px;
 	color: #91dcb1;
@@ -381,23 +381,23 @@ footer p {
 
 	.nonnavpage {
 		width: 77%;
-		padding: 15px;
+		padding: 15px
 	}
 
 /*HEADER/NAV*/
 
 	header {
 		background-color: #91dcb1;
+		flex-direction: column;
+		justify-content: flex-start;
+		height: 100vh; 
+		position: fixed; /*changing this made the nonnavpage section go behind the sidebar???*/
+		width: 20%;
 	}
 
 	.logo {
-		width: 10vw;
+		width: 10vw; /*when i change this it makes the sidebar super wide?*/
 		height: auto;		
-	}
-
-	.mobile-header {
-		flex-direction: column;
-		justify-content: flex-start;
 	}
 
 	.hamburger {
@@ -414,6 +414,7 @@ footer p {
 		font-size: 20px;
 		margin: 0 auto;
 		color: white;
+		font-weight: 300;
 	}
 
 	.expanded-menu a {
@@ -428,6 +429,12 @@ footer p {
 		display: block;
 	}
 
+
+	/*INTRO SECTION*/
+
+	#welcome {
+		font-size: 40px;
+	}
 
 
 	/*PORTFOLIO SECTION*/
