@@ -480,11 +480,12 @@ footer p {
 
 	footer {
 		background-color: #fff;
-		border-top: 2px solid #e6e6e6; /*not working?*/
+
 	}
 
 	footer p {
 		color: #91dcb1;
+		border-top: 1px solid #e6e6e6;
 	}
 
 
