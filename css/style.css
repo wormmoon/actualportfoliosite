@@ -393,7 +393,7 @@ footer p {
 
 	.nonnavpage {
 		width: 77%;
-		padding-left: 230px
+		padding-left: 300px
 	}
 
 /*HEADER/NAV*/
@@ -403,13 +403,14 @@ footer p {
 		flex-direction: column;
 		justify-content: flex-start;
 		height: 100vh; 
-		position: fixed; /*changing this made the nonnavpage section go behind the sidebar???*/
+		position: fixed; 
 		width: 230px;
 	}
 
 	.logo {
-		width: 10vw; /*when i change this it makes the sidebar super wide?*/
-		height: auto;		
+		width: 80%; 
+		height: auto;
+		margin: 0 auto;		
 	}
 
 	.hamburger {
@@ -480,7 +481,6 @@ footer p {
 	footer {
 		background-color: #fff;
 		border-top: 2px solid #e6e6e6; /*not working?*/
-		margin: 20px;
 	}
 
 	footer p {
