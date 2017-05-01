@@ -81,6 +81,10 @@ a {
 	display: block;
 }
 
+.menucontactinfo {
+	display: none;
+}
+
 
 
 
@@ -276,7 +280,7 @@ footer p {
 
 
 
-@media (min-width: 480px max-height: 1079px) {
+@media (min-width: 480px max-height: 1079px max-width: 1080px) {
 
 	/*HEADER*/
 
@@ -289,6 +293,10 @@ footer p {
 		font-size: 70px;
 		padding-left: 50px;
 		padding-right: 50px;
+	}
+
+	.menucontactinfo {
+	display: none;
 	}
 
 	/*INTRO SECTION*/
@@ -327,6 +335,10 @@ footer p {
 
 	.techs {
 		font-weight: 300;
+	}
+
+	.menucontactinfo {
+		display: none;
 	}
 
 	/*ABOUT SECTION*/
@@ -459,6 +471,21 @@ footer p {
 
 	/*CONTACT SECTION*/
 
+	.contact-section {
+		display: none;
+	}
+
+	/*FOOTER*/
+
+	footer {
+		background-color: #fff;
+		border-top: 2px solid #e6e6e6; /*not working?*/
+		margin: 20px;
+	}
+
+	footer p {
+		color: #91dcb1;
+	}
 
 
 
