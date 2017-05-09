@@ -52,4 +52,13 @@
 
 
 @media (min-width: 1080px) { 
+
+		.contact-link a {
+			color: #fff;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.contact-section {
+			background-color: #8ee5b3;
+		}
 	}
