@@ -49,22 +49,6 @@
 	display: none;
 }
 
-.section-title {
-	padding: 25px;
-	font-size: 45px;
-	font-family: 'Muli', sans-serif;
-	font-weight: 900;
-}
-
-.section-title::after {
-	content: "";
-	height: 3px;
-	background-color: #e6e6e6;
-	width: 100%;
-	top: 50%;
-	display: block;
-}
-
 .menucontactinfo {
 	display: none;
 }

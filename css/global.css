@@ -9,6 +9,22 @@ a {
 	color: #52a073
 }
 
+.section-title {
+	padding: 25px;
+	font-size: 45px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+}
+
+.section-title::after {
+	content: "";
+	height: 3px;
+	background-color: #e6e6e6;
+	width: 100%;
+	top: 50%;
+	display: block;
+}
+
 
 @media (min-width: 1080px) { 
 
@@ -19,7 +35,7 @@ a {
 	}
 
 	.nonnavpage {
-		width: 77%;
-		padding-left: 300px
+		width: 1000px;
+		padding-left: 300px;
 	}
 }
