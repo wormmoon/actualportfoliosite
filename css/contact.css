@@ -1,0 +1,55 @@
+/*CONTACT SECTION*/
+
+.contact-title {
+	color: #b8e35b;
+	margin-left: -10px;
+}
+
+.contact-section {
+	margin: 10px;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+.contact-link {
+	width: 100%;
+	margin: 10px;
+}
+
+.contact-link a {
+	color: #52a073;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 480px max-height: 1079px max-width: 1080px) {
+	/*CONTACT SECTION*/
+
+	.contact-section {
+		font-size: 20px;
+	}
+
+	.contact-link {
+		font-size: 20px;
+	}
+
+	.contact-link a {
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+
+@media (min-width: 1080px) { 
+	}

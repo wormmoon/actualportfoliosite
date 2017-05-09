@@ -1,0 +1,163 @@
+/*HEADER/NAV*/
+
+.logo {
+	width: auto;
+	height: 400%;
+}
+
+.mobile-header {
+	background-color: #91dcb1;
+	height: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px;
+}
+
+.hamburger {
+	height: 6%;
+	font-size: 35px;	
+	color: #ffffff;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.expanded-menu ul {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.expanded-menu li {
+	height: 48px;
+	width: 100%;
+	text-align: center;
+	line-height: 35px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin: 7px;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 5px;
+	margin-left: -1px;
+}
+
+.expanded-menu a {
+	color: #91dcb1;
+}
+
+.hidden {
+	display: none;
+}
+
+.section-title {
+	padding: 25px;
+	font-size: 45px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+}
+
+.section-title::after {
+	content: "";
+	height: 3px;
+	background-color: #e6e6e6;
+	width: 100%;
+	top: 50%;
+	display: block;
+}
+
+.menucontactinfo {
+	display: none;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 480px max-width: 1080px) {
+
+	/*HEADER*/
+
+	.mobile-header {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.section-title {
+		font-size: 70px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.menucontactinfo {
+	display: none;
+	}
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1080px) { 
+
+	/*HEADER/NAV*/
+
+	header {
+		background-color: #91dcb1;
+		flex-direction: column;
+		justify-content: flex-start;
+		height: 100vh; 
+		position: fixed; 
+		width: 230px;
+	}
+
+	.logo {
+		width: 80%; 
+		height: auto;
+		margin: 0 auto;		
+	}
+
+	.hamburger {
+		display: none;
+	}
+
+	.expanded-menu {
+		position: static;
+	}
+
+	.expanded-menu li {
+		height: 20%;
+		border-bottom: none;
+		font-size: 20px;
+		margin: 0 auto;
+		color: white;
+		font-weight: 300;
+	}
+
+	.expanded-menu a {
+		color: white;
+	}
+
+	.menu-link {
+		color: #fff;
+	}
+
+	.hidden {
+		display: block;
+	}
+
+	#menucontact {
+		display: none;
+	}
+
+	.menucontactinfo {
+		display: block;
+		margin: 50px;
+	}
+
+}

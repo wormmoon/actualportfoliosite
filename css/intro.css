@@ -1,0 +1,62 @@
+/*INTRO SECTION*/
+
+.intro-section {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 30px;
+	padding: 15px 25px 15px 25px;
+}
+
+.intro-section p {
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+#welcome {
+	font-family: 'Muli', sans-serif;
+	font-size: 40px;
+	color: #91dcb1;
+}
+
+
+
+
+
+
+
+@media (min-width: 480px max-height: 1079px max-width: 1080px) {
+
+	/*INTRO SECTION*/
+
+	.intro-section {
+		padding: 15px 50px 15px 50px;
+	}
+
+	.intro-section p {
+		font-size: 25px;
+		font-weight: 400;
+	}
+
+	.welcome {
+		font-size: 70px;
+	}
+}
+
+
+
+
+
+@media (min-width: 1080px) { 
+
+/*INTRO SECTION*/
+
+	#welcome {
+		font-size: 40px;
+	}
+}
+
+
+
+
+
+
+
