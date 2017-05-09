@@ -71,7 +71,7 @@
 
 
 
-@media (min-width: 480px max-height: 1079px max-width: 1080px) {
+@media (min-width: 480px) {
 
 		/*PORTFOLIO SECTION*/
 
@@ -84,6 +84,7 @@
 		font-size: 20px;
 		padding-left: 50px;
 		padding-right: 50px;
+		padding-bottom: 50px;
 	}
 
 	.project-section p {
@@ -99,6 +100,7 @@
 	.img-wrap {
 		border: 6px solid #e6e6e6;
 		width: 80%;
+		margin: 0 auto;
 	}
 
 }
