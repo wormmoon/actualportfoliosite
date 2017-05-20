@@ -1,16 +1,18 @@
 /*HEADER/NAV*/
 
-.logo {
-	width: auto;
-	height: 400%;
+.name {
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 700;
 }
 
 .mobile-header {
 	background-color: #91dcb1;
 	height: 15%;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: space-between;
 	padding: 25px;
 }
 
@@ -18,12 +20,12 @@
 	height: 6%;
 	font-size: 35px;	
 	color: #ffffff;
-	line-height: 30px;
+	line-height: 35px;
 	cursor: pointer;
 }
 
 .expanded-menu ul {
-	margin: 0 auto;
+	margin-top: 0 auto;
 	width: 100%;
 }
 
@@ -92,18 +94,20 @@
 	/*HEADER/NAV*/
 
 	header {
-		background-color: #91dcb1;
+		position: fixed;
+		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
-		height: 100vh; 
-		position: fixed; 
+		justify-content: space-between;
+		align-items: center;
 		width: 230px;
+		height: 100vh;
+		background-color: #91dcb1;
+		text-align: center;
 	}
 
-	.logo {
-		width: 80%; 
-		height: auto;
-		margin: 0 auto;		
+	.name {
+		font-size: 50px;
+		margin-top: 35px;
 	}
 
 	.hamburger {
@@ -111,7 +115,8 @@
 	}
 
 	.expanded-menu {
-		position: static;
+		position: absolute;
+		top: 25%;
 	}
 
 	.expanded-menu li {
