@@ -7,13 +7,12 @@
 
 .about-title {
 	color: #72c1b9;
-	margin-bottom: -15px;
+	margin-bottom: 50px;
 }
 
 .about-section div p {
 	font-family: 'Roboto', sans-serif;
-	margin: 10px;
-	padding: 25px;
+	margin: 25px;
 	font-weight: 300;
 	font-size: 20px;
 }
@@ -21,7 +20,8 @@
 .selfie {
 	width: auto;
 	height: 40vh;
-	margin: 15px 0px 10px 10px;
+	margin-left: 30px;
+	margin-bottom: 30px;
 	border-top: 6px solid #e6e6e6;
 	border-bottom: 6px solid #e6e6e6;
 	border-left: 6px solid #e6e6e6;

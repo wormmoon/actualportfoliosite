@@ -3,7 +3,7 @@
 .intro-section {
 	font-family: 'Roboto', sans-serif;
 	margin-top: 30px;
-	padding: 15px 25px 15px 25px;
+	padding: 15px 25px 15px 50px;
 	font-weight: 200;
 }
 
@@ -21,6 +21,11 @@
 	font-size: 40px;
 	color: #91dcb1;
 }
+
+.titleimage {
+	display: none;
+}
+
 
 
 
@@ -44,6 +49,10 @@
 	.welcome {
 		font-size: 70px;
 	}
+
+	.titleimage {
+		display: none;
+	}
 }
 
 
@@ -57,6 +66,12 @@
 	#welcome {
 		font-size: 70px;
 	}
+
+	
+	.titleimage {
+		width: 100%;
+		height: auto;
+	} /*not showing up?*/
 }
 
 
