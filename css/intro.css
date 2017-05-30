@@ -63,15 +63,36 @@
 
 /*INTRO SECTION*/
 
-	#welcome {
-		font-size: 70px;
+	.intro-section {
+		position: relative;
+		width: 850px;
+		height: 338px;
+		margin: 30px, 0px, 0px, 0px;
 	}
-
 	
 	.titleimage {
 		width: 100%;
+		height: 100%;
 		height: auto;
-	} /*not showing up?*/
+		display: block;
+		position: absolute;
+	} 
+
+	.intro-section p {
+		position: absolute;
+	}
+
+	.intro-section p:last-child {
+		top: 30%;
+		color: #fff;
+		margin-left: 30px;
+	}
+
+	#welcome {
+		font-size: 70px;
+		color: #fff;
+		left: 9%;
+	}
 }
 
 
