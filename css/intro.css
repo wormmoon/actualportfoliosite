@@ -93,6 +93,15 @@
 		color: #fff;
 		left: 9%;
 	}
+
+
+	.intro-section a {
+		color: #81D5A2;
+	}
+
+	.intro-section a:hover {
+		text-decoration: underline;
+	}
 }
 
 
