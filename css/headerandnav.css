@@ -3,11 +3,12 @@
 .name {
 	font-family: 'Muli', sans-serif;
 	color: #fff;
-	font-size: 80px;
+	font-size: 45px;
+	font-weight: 900;
 }
 
 .mobile-header {
-	background-color: #91dcb1;
+	background-color: #ACF2C7;
 	height: 15%;
 	display: flex;
 	align-items: center;
@@ -38,12 +39,11 @@
 	font-size: 25px;
 	margin: 7px;
 	border-bottom: 1px solid #e6e6e6;
-	padding-bottom: 5px;
 	margin-left: -1px;
 }
 
 .expanded-menu a {
-	color: #91dcb1;
+	color: #ACF2C7;
 }
 
 .hidden {
@@ -100,14 +100,14 @@
 		align-items: center;
 		width: 230px;
 		height: 100vh;
-		background-color: #91dcb1;
+		background-color: #ACF2C7;
 		text-align: center;
 	}
 
 	.name {
-		font-size: 70px;
+		font-size: 45px;
 		margin-top: 65px;
-		/*font-weight: 900;*/
+		font-weight: 900;
 	}
 
 	.hamburger {
@@ -116,7 +116,7 @@
 
 	.expanded-menu {
 		position: absolute;
-		top: 25%;
+		top: 27%;
 	}
 
 	.expanded-menu li {
