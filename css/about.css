@@ -33,7 +33,7 @@
 
 
 
-@media (min-width: 480px max-height: 1079px max-width: 1080px) {
+@media (min-width: 480px) {
 	/*ABOUT SECTION*/
 
 	.about-section div p {
@@ -54,4 +54,9 @@
 	.contact-section {
 		display: none;
 	}
+
+	.about-section a {
+		color: #81D5A2;
+	}
+
 }
