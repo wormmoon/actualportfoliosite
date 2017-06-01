@@ -30,7 +30,7 @@
 
 
 
-@media (min-width: 480px max-height: 1079px max-width: 1080px) {
+@media (min-width: 480px) {
 	/*CONTACT SECTION*/
 
 	.contact-section {
@@ -53,12 +53,23 @@
 
 @media (min-width: 1080px) { 
 
+		.contact-link {
+			display: inline;
+		}
+
 		.contact-link a {
 			color: #fff;
 			font-family: 'Roboto', sans-serif;
+			font-size: 15px;
 		}
 
 		.contact-section {
 			background-color: #8ee5b3;
 		}
+
+		.email {
+			bottom: 15%; /*doesn't seem to be moving?*/
+		}
+
+
 	}
